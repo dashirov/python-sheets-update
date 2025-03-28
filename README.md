@@ -26,7 +26,7 @@ configuration :dict =  {
             "tasks": [
                 {
                     "enabled": True,
-                    "id": "dummy_sheet_id",
+                    "workbook_id": "dummy_sheet_id",
                     "worksheet_name": "TestSheet",
                     "query_file": "dummy_query.sql",
                     "freeze": {"row": 1, "col": 2}
