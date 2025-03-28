@@ -34,5 +34,6 @@ configuration :dict =  {
             ]
         }
 updater = SnowflakeToGoogleSheet(config=configuration)
+updater.run_tasks()
 
 ```
